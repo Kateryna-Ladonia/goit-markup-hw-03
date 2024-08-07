@@ -185,10 +185,9 @@ address {
 .section-one-list {
   display: flex;
   gap: 24px;
-  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .section-one-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100%-3 * 24px)) / 4;
 }
 .section-two {
   background-color: #f4f4fd;
@@ -199,13 +198,12 @@ address {
 .section-two-list {
   display: flex;
   gap: 24px;
-  flex-basis: calc((100% - 3 * 24px) / 4);
-  border-radius: 0px 0px 4px 4px;
 }
 .section-two-item {
   background-color: #ffffff;
   flex-basis: 264px;
   border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100%-3 * 24px)) / 4;
 }
 .section-two-item-content {
   padding: 32px 0;
