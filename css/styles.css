@@ -129,9 +129,8 @@ address {
 .hero {
   background-color: #2e2f42;
   text-align: center;
-  padding: 188px 0;
-}
-.hero-container {
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-title {
   font-weight: 700;
@@ -188,15 +187,18 @@ address {
   gap: 24px;
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
+.section-one-item {
+}
 .section-two {
   background-color: #f4f4fd;
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-two-list {
   display: flex;
-  flex-basis: calc((100% - 3 * 24px) / 4);
   gap: 24px;
+  flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 .section-two-item {
